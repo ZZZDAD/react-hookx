@@ -1,0 +1,21 @@
+{
+  "name": "react-hookx",
+  "version": "0.0.5",
+  "description": "Predictable state container for React app",
+  "keywords": [
+    "react",
+    "hook"
+  ],
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "babel lib/react-hookx.js -o lib/index.js"
+  },
+  "author": "zhang zheng zhe",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "babel-preset-stage-0": "^6.24.1"
+  }
+}
